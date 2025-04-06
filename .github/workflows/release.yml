@@ -8,8 +8,7 @@
 name: Bingo
 
 on:
-  release:
-    types:  workflow_dispatch
+  workflow_dispatch:  # 允许在 GitHub 页面上手动触发
 
 jobs:
   build:
