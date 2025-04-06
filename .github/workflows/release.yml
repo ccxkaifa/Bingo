@@ -38,7 +38,6 @@ jobs:
         with:
           files: |
             build/libs/*.jar
-            build/outputs/apk/*.apk
           # 自动使用触发工作流的标签作为 Release 名称
           tag_name: ${{ github.ref_name }} 
         env:
